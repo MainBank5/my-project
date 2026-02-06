@@ -57,5 +57,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ vars.DOCKERHUB_USERNAME }}/my-project:latest
-          ${{ vars.DOCKERHUB_USERNAME }}/my-project:${{ github.sha }}
+          ${{ vars.DOCKERHUB_USERNAME }}/demo-app:latest
+          ${{ vars.DOCKERHUB_USERNAME }}/demo-app:${{ github.sha }}
